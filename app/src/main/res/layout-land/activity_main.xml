@@ -8,24 +8,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.1">
+        android:layout_weight="1">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="85dp"
             android:text="@string/zero"
-            android:textSize="75sp"
+            android:textSize="50sp"
             />
     </LinearLayout>
 
     <!--//first row: c, division, multiplication, backspace-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0"
-        android:layout_weight="1"
+        android:layout_height="100dp"
         android:orientation="horizontal"
         android:background="@color/black"
-        >
+        android:layout_weight="1">
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"
@@ -67,9 +66,9 @@
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/percent"
+            android:text="@string/modulo"
             android:textSize="25sp"
-            android:id="@+id/percent"/>
+            android:id="@+id/modulo"/>
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"
@@ -79,11 +78,10 @@
             android:id="@+id/clear"/>
     </LinearLayout>
 
-
     //second row: 7, 8, 9, minus
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0"
+        android:layout_height="100dp"
         android:layout_weight="1"
         android:orientation="horizontal"
         android:background="@color/black"
@@ -94,7 +92,7 @@
             android:text="@string/inv"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/inv"/>
         <Button
             android:layout_width="100dp"
@@ -102,7 +100,7 @@
             android:text="@string/sin"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/sin"/>
         <Button
             android:layout_width="100dp"
@@ -110,7 +108,7 @@
             android:text="@string/ln"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/ln"/>
         <Button
             android:layout_width="100dp"
@@ -148,11 +146,10 @@
 
     </LinearLayout>
 
-
     //third row: 4,5,6,+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0"
+        android:layout_height="100dp"
         android:layout_weight="1"
         android:orientation="horizontal"
         android:background="@color/black"
@@ -163,7 +160,7 @@
             android:text="@string/pi"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/pi"/>
         <Button
             android:layout_width="100dp"
@@ -171,7 +168,7 @@
             android:text="@string/cosine"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/cos"/>
         <Button
             android:layout_width="100dp"
@@ -179,7 +176,7 @@
             android:text="@string/log"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/log"/>
         <Button
             android:layout_width="100dp"
@@ -212,10 +209,9 @@
     </LinearLayout>
 
     //fourth row: 1,2,3,()
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0"
+        android:layout_height="100dp"
         android:layout_weight="1"
         android:orientation="horizontal"
         android:background="@color/black"
@@ -226,7 +222,7 @@
             android:text="@string/e"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/e"/>
         <Button
             android:layout_width="100dp"
@@ -235,14 +231,14 @@
             android:textSize="25sp"
             android:layout_weight="1"
             android:id="@+id/tan"
-            android:background="@color/denim"/>
+            android:background="@color/greydenim"/>
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:text="@string/squareroot"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/sqrt"/>
         <Button
             android:layout_width="100dp"
@@ -281,29 +277,28 @@
 
     </LinearLayout>
 
-
     //fifth row: Ans, EXP, x^y, 0, decimal, =, +
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
         android:layout_weight="1"
         android:orientation="horizontal"
         android:background="@color/black">
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:text="@string/ans"
+            android:text="@string/tip"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
-            android:id="@+id/ans"/>
+            android:background="@color/greydenim"
+            android:id="@+id/tip"/>
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:text="@string/exp"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/exp"/>
         <Button
             android:layout_width="100dp"
@@ -311,7 +306,7 @@
             android:text="@string/power"
             android:textSize="25sp"
             android:layout_weight="1"
-            android:background="@color/denim"
+            android:background="@color/greydenim"
             android:id="@+id/power"/>
         <Button
             android:layout_width="100dp"
