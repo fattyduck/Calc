@@ -13,7 +13,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="85dp"
-            android:text="@string/zero"
             android:textSize="50sp"
             />
     </LinearLayout>
@@ -38,14 +37,16 @@
             android:layout_weight="1"
             android:text="@string/Deg"
             android:textSize="25sp"
-            android:id="@+id/deg"/>
+            android:id="@+id/deg"
+            />
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/permutation"
             android:textSize="25sp"
-            android:id="@+id/perm"/>
+            android:id="@+id/perm"
+            />
 
         <Button
             android:layout_width="100dp"
@@ -53,14 +54,16 @@
             android:layout_weight="1"
             android:text="@string/openParen"
             android:textSize="25sp"
-            android:id="@+id/openParen"/>
+            android:id="@+id/openParen"
+            />
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/closeParen"
             android:textSize="25sp"
-            android:id="@+id/closeParen"/>
+            android:id="@+id/closeParen"
+            />
 
         <Button
             android:layout_width="100dp"
@@ -68,14 +71,16 @@
             android:layout_weight="1"
             android:text="@string/modulo"
             android:textSize="25sp"
-            android:id="@+id/modulo"/>
+            android:id="@+id/modulo"
+            />
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/clear"
             android:textSize="25sp"
-            android:id="@+id/clear"/>
+            android:id="@+id/clear"
+            />
     </LinearLayout>
 
     //second row: 7, 8, 9, minus
@@ -93,7 +98,8 @@
             android:textSize="25sp"
             android:layout_weight="1"
             android:background="@color/greydenim"
-            android:id="@+id/inv"/>
+            android:id="@+id/inv"
+            />
         <Button
             android:layout_width="100dp"
             android:layout_height="match_parent"

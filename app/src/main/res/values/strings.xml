@@ -14,7 +14,6 @@
     <string name="faveColor">What\'s your favorite color?</string>
 
 
-    <string name="zero">0.0</string>
     <string name="clear">C</string>
     <string name="dividedBy">÷</string>
     <string name="times">x</string>
@@ -35,7 +34,7 @@
     <string name="negation">+/-</string>
     <string name="equals">=</string>
     <string name="minus">-</string>
-    <string name="percent">%</string>
+    <string name="modulo">%</string>
     <string name="openParen">(</string>
     <string name="closeParen">)</string>
     <string name="ans">Ans</string>
@@ -52,7 +51,8 @@
     <string name="ln">ln</string>
     <string name="Deg">Deg</string>
     <string name="permutation">x!</string>
-    <string name="help">help me!</string>
+    <string name="help">help</string>
+    <string name="tip">tip</string>
 
 
 
